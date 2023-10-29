@@ -96,6 +96,7 @@ const Header:React.FC<Headerprops> =({
             md:hidden gap-x-2
             items-center">
                 <button 
+                 onClick={() => router.push('/')}
                 className="rounded-full
                 p-2
                 bg-white
@@ -108,6 +109,7 @@ const Header:React.FC<Headerprops> =({
                     <HiHome className="text-black" size={20}  />
                 </button>
                 <button 
+                 onClick={() => router.push('/search')} 
                 className="rounded-full
                 p-2
                 bg-white
@@ -117,7 +119,7 @@ const Header:React.FC<Headerprops> =({
                 hover:opacity-75
                 transition
                 ">
-                    <BiSearch className="text-black" size={20}  />
+                    <BiSearch  className="text-black" size={20}  />
                 </button>
 
             </div>
