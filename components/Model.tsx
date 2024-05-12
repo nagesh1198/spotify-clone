@@ -84,8 +84,6 @@ const Model: React.FC<ModelProps> = ({
                         justify-center
                         rounded-full
                         focus:outline-none
-
-
                         "
             >
               <IoMdClose />
